@@ -90,11 +90,13 @@ color: black;
 
 .texting {
   margin-top: 2em;
+  color: black;
 }
 
 .msg {
   margin-bottom: 1em;
   background-color: pink;
+  color: black;
 }
 
 @media (max-width: 768px) {
@@ -105,6 +107,14 @@ color: black;
   }
 
   .mimi {
+    color: black;
+  }
+
+  .texting {
+    color: black;
+  }
+
+  .msg {
     color: black;
   }
 }
