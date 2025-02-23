@@ -1,0 +1,105 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+body {
+  color: var(--foreground);
+  background: url('../public/images/background.jpg');
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@import "tailwindcss";
+
+
+.mimi {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2em;
+}
+
+.container {
+padding: 3em;
+}
+
+.cont {
+  border: 3px solid pink;
+  border-radius: 15px;
+  padding: 2em;
+  background-color: white;
+  width: 20em;
+  margin: 0 auto;
+
+}
+
+.logo-cont {
+  display: flex;
+
+  align-items: end;
+}
+
+.mylogo {
+  border-radius: 100%;
+}
+
+.mimi {
+padding-left: 10px;
+font-weight: 800;
+}
+
+.input {
+ padding: 5px;
+}
+
+.myform {
+
+  margin-top: 1.3em;
+}
+
+.mybutton {
+  background-color: pink;
+  padding: 10px 15px;
+}
+
+.texting {
+  margin-top: 2em;
+}
+
+.msg {
+  margin-bottom: 1em;
+  background-color: pink;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
